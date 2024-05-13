@@ -10,7 +10,7 @@ public class DbUtil {
 	static {
 		DB_URL = "jdbc:mysql://localhost:3306/student_admission";
 		USER_NAME = "root";
-		PASSWORD = "Parth@123";
+		PASSWORD = "root";
 	}
 
 	public static Connection openConnection() throws SQLException {
