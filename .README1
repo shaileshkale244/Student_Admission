@@ -1,0 +1,18 @@
+refer to student admission scenario
+Tables -- courses (id , title: unique, start_date , end_date,fees,weekday|weekend|daily, capacity)
+
+students table (id , first_name, last_name , email ,password , address:optional, marks obtained in entrance exam)
+
+
+admissions table (id , student_id,course_id,application_date,admission_status : applied|accepted|rejected|wait listed)
+
+Requirements
+1. Add new course
+2. student registration
+student details n course title, course type (weekday|weekend|daily)
+This should insert a record in students table.
+Insert a record in admissions -with admission_status -applied
+3. Admin should be able to
+change the admission status --to 
+accepted|rejected|wait listed
+(depending upon capacity n students marks n min marks requirement)
