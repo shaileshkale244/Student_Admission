@@ -1,5 +1,6 @@
 package com.app.entity;
 
+
 import java.sql.Date;
 
 public class Admission {
@@ -77,8 +78,6 @@ public class Admission {
 	public String toString() {
 		return "Admission [stud_id=" + stud_id + ", course_id=" + course_id + ", application_date=" + application_date
 				+ ", status=" + status + "]";
-	}
-	
-	
-	
+
+
 }

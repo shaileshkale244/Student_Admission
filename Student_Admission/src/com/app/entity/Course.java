@@ -1,5 +1,6 @@
 package com.app.entity;
 
+
 import java.sql.Date;
 
 public class Course {
@@ -10,6 +11,7 @@ public class Course {
 	private Date end_date;
 	private double fees;
 	private Schedule schedule;
+  private int capacity;
 	
 	
 	public Course(String title, Date start_date, Date end_date, double fees, Schedule schedule, int capacity) {
@@ -64,7 +66,6 @@ public class Course {
 		return "Course [id=" + id + ", title=" + title + ", start_date=" + start_date + ", end_date=" + end_date
 				+ ", fees=" + fees + ", schedule=" + schedule + ", capacity=" + capacity + "]";
 	}
-	private int capacity;
+
 	
 
-}
