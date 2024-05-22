@@ -1,9 +1,13 @@
 package com.app.entity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class Admission {
 
 =======
+=======
+
+>>>>>>> b74bf8d20439bff8b503417bf7b244d0f7376785
 import java.sql.Date;
 
 public class Admission {
@@ -81,9 +85,14 @@ public class Admission {
 	public String toString() {
 		return "Admission [stud_id=" + stud_id + ", course_id=" + course_id + ", application_date=" + application_date
 				+ ", status=" + status + "]";
+<<<<<<< HEAD
 	}
 	
 	
 	
 >>>>>>> shailesh
+=======
+
+
+>>>>>>> b74bf8d20439bff8b503417bf7b244d0f7376785
 }

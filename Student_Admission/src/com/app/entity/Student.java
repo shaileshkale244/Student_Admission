@@ -2,7 +2,10 @@ package com.app.entity;
 
 public class Student {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> b74bf8d20439bff8b503417bf7b244d0f7376785
 	private int id;
 	private String fname;
 	private String lname;
@@ -78,10 +81,13 @@ public class Student {
 		return "Student [id=" + id + ", name=" + fname + " " + lname + ", email=" + email + ", password="
 				+ password + ", address=" + address + ", marks=" + marks + "]";
 	}
+<<<<<<< HEAD
 	
 
 	   
 	    
 >>>>>>> shailesh
+=======
+>>>>>>> b74bf8d20439bff8b503417bf7b244d0f7376785
 
 }
